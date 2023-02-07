@@ -26,15 +26,15 @@ Le style est le même, ce qui change ce sont les pages accessibles.
 * Forme connectée : accès à Home, Locations et Disconnect
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
--- Pour lancer le backend --
+-- Pour lancer le backend (port 3000) --
 > installer dépendance npm dans backend : >> npm install
 > + avoir un fichier .env avec pour clés : 
     MONGO_URI=mongodb+srv://pierrebrieuc:admin123@cluster0.m3v0xrz.mongodb.net/test
     SECRET_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VycyIsIm5hbWUiOiJQaWVycmVCcmlldWMgQ09MTEVUIiwiaWF0IjoxNTE2MjM5MDIyfQ.PlClK3qH8ILpHP4G0-1femDfilfkvpuHTUw0Ph02N5M          JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlBpZXJyZS1CcmlldWMgQ09MTEVUIiwiaWF0IjoxNTE2MjM5MDIyfQ.icW6ceDG465udWpGoNjn9O1lIQe0nP7NCW_pc10aAk0
-> Après cela, entrer : >> npm start (port 3000)
+> Après cela, entrer : >> npm start
 
 
--- Pour lancer le frontend --
+-- Pour lancer le frontend (port 8080) --
 * intaller dépendance npm dans frontend : >> npm install
-* Après cela, entrer : >>  npm run serve (port 8080)
+* Après cela, entrer : >>  npm run serve
 
