@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 require("./src/authentication/local.strategy");
 require("./src/authentication/jwt.strategy");
 const passport = require("passport");
-const import_data = require("./import-data");
+//const import_data = require("./import-data");
 
 const cors = require("cors");
 
@@ -43,7 +43,7 @@ async function main() {
       `API listening on port ${port}, visit http://localhost:${port}/`
     );
   });
-  import_data.main;
+  //import_data.main;
 }
 
 main();

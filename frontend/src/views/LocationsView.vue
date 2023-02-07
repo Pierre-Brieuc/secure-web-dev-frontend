@@ -118,6 +118,7 @@ export default {
       })
         .then(response => {
           console.log(JSON.stringify(response.config))
+          location.reload()
           this.$router.push('/locations')
         })
         .catch(error => {
