@@ -35,6 +35,6 @@ Le style est le même, ce qui change ce sont les pages accessibles.
 
 
 -- Pour lancer le frontend --
-> intaller dépendance npm dans frontend : >> npm install
-> Après cela, entrer : >>  npm run serve (port 8080)
+* intaller dépendance npm dans frontend : >> npm install
+* Après cela, entrer : >>  npm run serve (port 8080)
 
