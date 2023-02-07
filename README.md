@@ -5,8 +5,8 @@ User stories : 1, 2, 3, 4, 6
 Certaines User Stories ne sont pas "totalement" respectées.
 
 Dans ce projet, seuls 2 comptes sont concernés : simple visiteur et admin.
-> Simple visiteur accède à la page Home qui demande de se connecter
-> Admin peut ajouter et supprimer un lieu de tournage ainsi qu'en créer un nouveau
+* Simple visiteur accède à la page Home qui demande de se connecter
+* Admin peut ajouter et supprimer un lieu de tournage ainsi qu'en créer un nouveau
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 !!! Les pages et fonctionnalités citées ont toutes été testées, s'il y a un problème, il est possible que ça soit du à une erreur non traitée (vérifier l'affichage console dans l'IDE et dans le navigateur web. 
