@@ -5,6 +5,7 @@ import RegisterView from '../views/RegisterView.vue'
 import LocationsView from '../views/LocationsView.vue'
 import DisconnectView from '../views/DisconnectView.vue'
 import AddLocationsView from '../views/AddLocationsView.vue'
+import EditLocationView from '../views/EditLocationView.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/addLocations',
     name: 'addLocations',
     component: AddLocationsView
+  },
+  {
+    path: '/editLocations/:id',
+    name: 'editLocations',
+    component: EditLocationView
   }
 ]
 

@@ -22,7 +22,7 @@ function findAll(limit = 20, offset = 0) {
 async function findOne(id) {
   let location;
   try {
-    location = Location.findById(id, function(err, user) {});
+    location = Location.findById(id, function(err, user) {}).clone();
   } catch (e) {
     console.error(e);
     throw new ValidationError(e.message);

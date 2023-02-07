@@ -63,7 +63,7 @@ async function controllerDeleteOneLocation(req, res, next) {
 
 router.delete(
   "/:id",
-  authorizationMiddleware.canAccess(["admin"]),
+  // authorizationMiddleware.canAccess(["admin"]),
   controllerDeleteOneLocation
 );
 
