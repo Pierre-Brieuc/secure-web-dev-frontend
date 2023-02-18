@@ -29,7 +29,7 @@ Le style est le même, ce qui change ce sont les pages accessibles.
 -- Pour lancer le backend (port 3000) --
 > installer dépendance npm dans backend : >> npm install
 > + avoir un fichier .env avec pour clés : 
-    MONGO_URI=mongodb+srv://pierrebrieuc:admin123@cluster0.m3v0xrz.mongodb.net/test
+    MONGO_URI=mongodb+srv://pierrebrieuc:oyFcUtSpGM4FaoE9@cluster0.m3v0xrz.mongodb.net/?retryWrites=true&w=majority
     SECRET_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VycyIsIm5hbWUiOiJQaWVycmVCcmlldWMgQ09MTEVUIiwiaWF0IjoxNTE2MjM5MDIyfQ.PlClK3qH8ILpHP4G0-1femDfilfkvpuHTUw0Ph02N5M          JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlBpZXJyZS1CcmlldWMgQ09MTEVUIiwiaWF0IjoxNTE2MjM5MDIyfQ.icW6ceDG465udWpGoNjn9O1lIQe0nP7NCW_pc10aAk0
 > Après cela, entrer : >> npm start
 
